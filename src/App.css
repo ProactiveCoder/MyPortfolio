@@ -1,0 +1,23 @@
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: transparent;
+} */
+
+.body{
+  /* background: rgb(30,30,30); */
+  /* color: white; */
+  overflow: hidden;
+  /* overflow-y: scroll; */
+}
+
+/* .bg{
+  background-color: aqua;
+} */
+
+h1{
+  text-align: center;
+  color: black;
+}

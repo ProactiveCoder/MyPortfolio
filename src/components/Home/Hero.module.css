@@ -1,0 +1,34 @@
+.containt {
+    /* background-image: linear-gradient(to bottom, #afbacc, #878d9a, #60626b, #3a3b40, #181819);    background: #9d9d9d; */
+    height: calc(100vh);
+
+    /* background: rgb(238,174,202); */
+    /* background: linear-gradient(90deg, rgba(136, 100, 136, 0.955) 0%, rgb(182, 181, 181) 100%); */
+    display: flex;
+    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+    background-image: linear-gradient(90deg, #252525dd 0%, #ffffff 100%);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first {}
+
+.second {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.third {
+    font-size: 1.5rem;
+
+}
+
+.forth {}
+
+.img {
+    object-fit: cover;
+    /* height: 80rem; */
+    max-height: 49rem;
+    filter: grayscale(90%);
+    overflow-y: hidden;
+}

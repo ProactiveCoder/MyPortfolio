@@ -1,0 +1,55 @@
+
+.Contact{
+    /* background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.60)) ,url(../../assets/portfolio5.png) no-repeat cover;
+    background-image: linear-gradient(to top, #09203F, #537895 100%);
+    background-color: #0b0c0ccd; */
+    
+}
+
+.form{
+    margin:0 5% ;
+    
+}
+input,textarea{
+    width: 40%;
+    height: 35px;
+    margin: 5px;
+    padding: 5px;
+    background: none;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+}
+textarea{
+    width: 40%;
+    height: 400px;
+}
+.btn{
+    width: 40%;
+    height: 35px;
+    margin: 10px;
+    background: #E52777;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+
+}
+/* .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15% 0;
+} */
+/* .link a img{
+    width: 40px;
+    margin: 5px;
+   
+} */
+
