@@ -1,25 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@200&family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Rubik+Doodle+Shadow&family=Satisfy&display=swap');
 .containt {
-    /* background-image: linear-gradient(to bottom, #afbacc, #878d9a, #60626b, #3a3b40, #181819);    background: #9d9d9d; */
-    height: calc(100vh);
-
-    /* background: rgb(238,174,202); */
-    /* background: linear-gradient(90deg, rgba(136, 100, 136, 0.955) 0%, rgb(182, 181, 181) 100%); */
+    height: calc(100%);
     display: flex;
-    /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
-    background-image: linear-gradient(90deg, #252525dd 0%, #ffffff 100%);
+    /* background-image: linear-gradient(90deg, #252525dd 0%, #ffffff 100%); */
     align-items: center;
     justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: rgb(242, 242, 242);
 }
 
-.first {}
+.first{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
 
 .second {
     font-size: 5rem;
     font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .third {
     font-size: 1.5rem;
+    font-family: 'Satisfy', cursive;
 
 }
 
@@ -28,7 +35,18 @@
 .img {
     object-fit: cover;
     /* height: 80rem; */
-    max-height: 49rem;
-    filter: grayscale(90%);
-    overflow-y: hidden;
+    max-height: 50rem;
+    /* filter: grayscale(90%); */
+    overflow: hidden;
+}
+.ContaintText{
+    margin: 50px;
+}
+a{
+    text-decoration: none;
+}
+.logoimg{
+    height: 2rem;
+    margin:20px 5px;
+    
 }

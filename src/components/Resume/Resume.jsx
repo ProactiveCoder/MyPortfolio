@@ -1,13 +1,18 @@
 // import React from 'react'
-import './Resume.css'
+import style from './Resume.module.css'
+import Education1 from './Education1'
+import Education2 from './Education2'
+import Education3 from './Education3'
 function Resume() {
   return (
-    <div id='resume' className='resume'>
+    <div id='resume' className={style.resume}>
         <div>
             <h1>My Resume</h1>
-            <div>
-                <h2>Education</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, officia. Iure tenetur facilis explicabo, aliquam maxime voluptatem. Recusandae facilis qui omnis, ipsa nesciunt sapiente saepe consequuntur impedit quasi, dolorem, placeat ipsam nemo natus! Corrupti aperiam dolores, provident eveniet asperiores enim non at earum alias necessitatibus inventore consectetur in. Perferendis, porro!</p>
+                <h2 className={style.resumeh2}>Education</h2>
+            <div className={style.eduction}>
+              <Education1/>
+              <Education2/>
+              <Education3/>
             </div>
         </div>
     </div>

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit&family=Oswald&family=Space+Mono&display=swap');
+
+.portfolio {
+    /* height: calc(100vh); */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+
+
+}
+/* 
+.portimg {
+    object-fit: cover;
+    height: 30rem;
+    width: 25rem;
+    margin: .5rem;
+    filter: grayscale();
+    overflow: hidden;
+    /* border-radius: 1rem; 
+} 
+*/
+/* 
+.portimg:hover {
+
+    filter: grayscale(0);
+    scale: .9;
+    transition: 1s;
+} */
+
+h1 {
+    padding: 1rem;
+
+}
+
+.projectmain1 {
+    padding: 10px;
+    border-radius:0 10px;
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
+    transition: 2s;
+    /* width: 40%; */
+
+
+}
+
+.projectmain1:hover,
+.projectmain2:hover {
+    background-color: #fff;
+}
+
+.projectmain2 {
+    padding: 10px;
+    border-radius:0 10px;
+    background-color: rgb(193, 193, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
+    transition: 2s;
+
+    /* width: 40%; */
+
+}
+.projectheading{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    /* color: rgb(130, 130, 130); */
+
+
+}
+.projectpaga{
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2rem;
+}
+
+.projectimg1 {
+    /* height: 15rem; */
+    /* margin-right: 30px; */
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    /* width: 50%; */
+}
+
+.projectimg2 {
+    /* height: 15em; */
+    /* margin-left: 30px; */
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    /* width: 30%; */
+}
+
+.projectlogo {
+    height: 2rem;
+    /* margin-left: 10px; */
+}
+
+.projectspan {
+    font-weight: bold;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.codelink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    /* color: red; */
+    margin: 10px;
+
+
+}
+
+.linka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+@media (min-width: 900px){
+    .projectmain1, .projectmain2{
+        padding: 10px;
+    border-radius:0 10px;
+    background-color: rgb(193, 193, 193);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
+    transition: 2s;
+    width: 40%;
+    }
+}

@@ -1,6 +1,11 @@
 .footerbdy{
     background-color: rgb(206, 206, 206);
     /* height: 20px; */
-    padding: 1.5rem;
+    padding: 1.2rem;
     text-align: center;
+
+}
+.footercontain{
+    font-family: 'Satisfy', cursive;
+
 }

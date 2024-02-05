@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit&family=Oswald&family=Space+Mono&display=swap');
+
+.resume{
+    background-color: rgba(199, 199, 199, 0.237);
+}
+.resumeh2{
+    text-align: center;
+}
+.eduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.one{
+    padding: 20px;
+    /* width: 35%; */
+    /* border: 1px solid green; */
+    background-color: rgba(194, 194, 194, 0.908);
+    border-radius:0 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
+
+}
+.one:hover{
+    background-color: rgb(188, 188, 188);
+}
+.two{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(65, 65, 65);
+}
+.three{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(130, 130, 130);
+}
+.four{
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+}
+.five{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    font-family: 'Satisfy', cursive;
+
+}

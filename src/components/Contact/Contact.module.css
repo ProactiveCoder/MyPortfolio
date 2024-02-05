@@ -1,19 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
+
+.main{
+    background-color: #e7e7e7;
+    padding: 15px;
+}
 .Contact{
-    /* background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.60)) ,url(../../assets/portfolio5.png) no-repeat cover;
-    background-image: linear-gradient(to top, #09203F, #537895 100%);
-    background-color: #0b0c0ccd; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     
 }
 
 .form{
-    margin:0 5% ;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px; */
+    width: 40%;
+}
+.form2{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
 }
 input,textarea{
-    width: 40%;
+    width: 550px;
     height: 35px;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 5px;
     background: none;
     outline: none;
@@ -23,13 +40,15 @@ input,textarea{
     font-weight: 600;
 }
 textarea{
-    width: 40%;
+    width: 550px;
+
     height: 400px;
 }
 .btn{
-    width: 40%;
+    width: 550px;
+
     height: 35px;
-    margin: 10px;
+    /* margin: 10px; */
     background: #E52777;
     color: white;
     font-size: 15px;
@@ -52,4 +71,36 @@ textarea{
     margin: 5px;
    
 } */
-
+.one{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    cursor: pointer;
+}
+.logo{
+    height: 3.5rem;
+    margin-right: 10px;
+    /* padding: 5px; */
+box-shadow: 5px 5px 10px -2px rgb(80, 80, 80);
+border-radius: 50%;
+}
+.logop{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3rem;
+}
+@media (max-width: 950px) {
+    
+    .Contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+    input,textarea{
+        width: 180%;
+    }
+    .btn{
+        width: 300px;
+    }
+}

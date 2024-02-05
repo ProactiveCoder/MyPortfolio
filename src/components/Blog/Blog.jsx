@@ -2,14 +2,18 @@
 
 import Card from "./Card"
 import style from './Blog.module.css'
+import BlogBody from "./BlogBody"
 
 
+const openBlog=()=>{
+  <BlogBody/>
+};
 function Blog() {
   return (
     <div className={style.card} id="blog">
         <h1>Blog</h1>
         <div className={style.card1}>
-        <Card/>
+        <Card onClick={openBlog} />
         <Card/>
         <Card/>
         <Card/>

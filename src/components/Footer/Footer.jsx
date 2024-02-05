@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
         <div className="footerbdy">
-        <p>© Copyright 2022 - Prabhat by Freelancer</p>
+        <p className='footercontain'>© Copyright 2022 - Prabhat by Freelancer</p>
         </div>
     </div>
   )
