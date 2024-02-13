@@ -8,15 +8,15 @@ import twitter from "../../assets/twitter.png"
 
 function Hero() {
   return (
-    <div className={style.containt} id='home'>
-        <div>
+    <div className={style.containt} id="home1">
+        <div className={style.imgdiv}>
             <img className={style.img} src={mypic} alt="prabhat" />
         </div>
         <div className={style.ContaintText}>
           <span className={style.first}>Hello! </span>
           <br />
           <span className={style.second}>I'M PRABHAT</span><br />
-          <span className={style.third}>full-Stack Developer,</span>
+          <span className={style.third}>Full-Stack Developer,</span>
           <span className={style.third}>App Developer,</span>
           <span className={style.third}>Coder</span>
           {/* <p className={style.third}>I design and develop services for customers of all sizes,<br /> specializing in creating stylish, modern websites, web services <br/> and online stores.</p> */}

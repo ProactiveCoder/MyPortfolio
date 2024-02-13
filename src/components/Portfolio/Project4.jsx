@@ -13,7 +13,7 @@ function Projects() {
         </div>
         <div>
         <h3 className={style.projectheading}>Food Court</h3>
-        <p className={style.projectpaga}>I made this website for Orisha startup <br /> Hackthon for manage the crowd of food court</p>
+        <p className={style.projectpaga}>I made this website for Orisha startup Hackthon for manage the crowd of food court</p>
         <span className={style.projectspan}> React</span><span className={style.projectspan}> Css</span><br />
         <div className={style.linka}>
         <a className={style.codelink} href="https://github.com/ProactiveCoder/FoodCourt" target="_blank" rel="noopener noreferrer">code <img className={style.projectlogo} src={github} alt="" /></a>

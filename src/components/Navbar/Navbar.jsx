@@ -18,7 +18,7 @@ function Navbar() {
             <img className='loloImg' id="home" src={logo} alt="logo" />
         </div> 
         <div className={`navItm ${showNav ? 'show' : ''}`}>
-            <Link activeClass="active" to="home" spy={true} smooth={true} offset={-50} duration={500}  className='navItems'>Home</Link>
+            <Link activeClass="active" to="home1" spy={true} smooth={true} offset={-50} duration={500}  className='navItems'>Home</Link>
             <Link activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={500} className='navItems'>About</Link>
             <Link activeClass="active" to="portfolio" spy={true} smooth={true} offset={-50} duration={500} className='navItems'>Portfolio</Link>
             <Link activeClass="active" to="resume" spy={true} smooth={true} offset={-50} duration={500} className='navItems'>My resume</Link>

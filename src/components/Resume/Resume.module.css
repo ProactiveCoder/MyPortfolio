@@ -1,49 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit&family=Oswald&family=Space+Mono&display=swap');
 
-.resume{
+.resume {
     background-color: rgba(199, 199, 199, 0.237);
 }
-.resumeh2{
+
+.resumeh2 {
     text-align: center;
 }
-.eduction{
+
+.eduction {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 10px;
+
 }
-.one{
+
+.one {
     padding: 20px;
-    /* width: 35%; */
+    /* width: 40%;
+    height: 250px; */
     /* border: 1px solid green; */
     background-color: rgba(194, 194, 194, 0.908);
-    border-radius:0 20px;
+    border-radius: 0 20px;
     margin: 10px;
     box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
 
 }
-.one:hover{
+
+.one:hover {
     background-color: rgb(188, 188, 188);
 }
-.two{
+
+.two {
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     color: rgb(65, 65, 65);
 }
-.three{
+
+.three {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Kanit', sans-serif;
     color: rgb(130, 130, 130);
 }
-.four{
+
+.four {
     font-weight: bold;
     font-family: 'Space Mono', monospace;
 }
-.five{
+
+.five {
     font-size: 1.2rem;
     /* font-weight: bold; */
-    font-family: 'Satisfy', cursive;
+    /* font-family: 'Satisfy', cursive; */
+    font-family: "Aladin", system-ui;
+    letter-spacing: 1px;
 
+}
+
+@media (min-width: 900px) {
+    .one {
+        padding: 20px;
+        width: 40%;
+        /* height: 15rem; */
+        /* border: 1px solid green; */
+        background-color: rgba(194, 194, 194, 0.908);
+        border-radius: 0 20px;
+        margin: 10px;
+        box-shadow: 5px 5px 10px -2px rgb(120, 120, 121);
+    
+    }
 }

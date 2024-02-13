@@ -10,9 +10,9 @@ function Resume() {
             <h1>My Resume</h1>
                 <h2 className={style.resumeh2}>Education</h2>
             <div className={style.eduction}>
-              <Education1/>
-              <Education2/>
               <Education3/>
+              <Education2/>
+              <Education1/>
             </div>
         </div>
     </div>
