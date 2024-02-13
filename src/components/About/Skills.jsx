@@ -24,9 +24,8 @@ function Skills() {
           <p className={style.about2p}>
             Hello, I'm Prabhat, a passionate full-stack developer. <br />
             With a love for coding and technology, I create impactful <br />
-            web solutions. Let's connect and explore the endless possibilities{" "}
-            <br />
-            in the world of software development. Welcome to my portfolio! 👨‍💻✨
+            web solutions. Let's connect and explore the endless <br /> possibilities{" "}
+            in the world of software development. <br /> Welcome to my portfolio! 👨‍💻✨
           </p>
         </div>
       </div>
