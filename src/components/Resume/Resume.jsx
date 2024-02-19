@@ -7,7 +7,7 @@ function Resume() {
   return (
     <div id='resume' className={style.resume}>
         <div>
-            <h1>My Resume</h1>
+            {/* <h1>My Resume</h1> */}
                 <h2 className={style.resumeh2}>Education</h2>
             <div className={style.eduction}>
               <Education3/>

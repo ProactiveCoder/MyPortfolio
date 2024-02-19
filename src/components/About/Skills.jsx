@@ -10,6 +10,7 @@ import css from "../../assets/css.png";
 import js from "../../assets/js.png";
 import react from "../../assets/react.png";
 import expressjs from "../../assets/Express.png";
+import mongodb from "../../assets/mongodb.png";
 
 function Skills() {
   return (
@@ -27,6 +28,7 @@ function Skills() {
             web solutions. Let's connect and explore the endless <br /> possibilities{" "}
             in the world of software development. <br /> Welcome to my portfolio! 👨‍💻✨
           </p>
+         
         </div>
       </div>
       <div className={style.box}>
@@ -60,6 +62,10 @@ function Skills() {
             <p className={style.skillpara}>
               Express Js{" "}
               <img className={style.logoimg} src={expressjs} alt="" />
+            </p>
+            <p className={style.skillpara}>
+              MOngoDB{" "}
+              <img className={style.logoimg} src={mongodb} alt="" />
             </p>
           </ul>
         </div>

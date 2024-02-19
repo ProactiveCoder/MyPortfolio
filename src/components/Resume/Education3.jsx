@@ -12,7 +12,7 @@ function Education1() {
         <p className={style.five}>Lorem ipsum dolor sit amet consectetur 
         adipisicing elit. Perferendis exercitationem 
          maiores asperiores modi fuga fugiat aliquid. 
-          Aspernatur neque quidem iure fugiat reprehenderit 
+         
            </p>
     </div>
     </>
